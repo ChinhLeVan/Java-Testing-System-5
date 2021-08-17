@@ -4,11 +4,10 @@ public class Student implements IStudent {
 	private int id;
 	private String name;
 	private int group;
-	private int COUNT = 0;
+	private static int COUNT = 0;
 	
 	public Student(String name, int group) {
-		super();
-		this.id = this.COUNT++;
+		this.id = COUNT++;
 		this.name = "Nguyễn Văn "+name;
 		this.group = group;
 	}

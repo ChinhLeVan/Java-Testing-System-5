@@ -7,6 +7,7 @@ public class CandidateC extends Candidates{
 		super(candidateNumber, name, adres, priority);
 		// TODO Auto-generated constructor stub
 	}
+	
 	@Override
 	public String toString() {
 		// TODO Auto-generated method stub

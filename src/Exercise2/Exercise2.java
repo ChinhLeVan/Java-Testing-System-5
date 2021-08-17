@@ -13,12 +13,12 @@ public class Exercise2 {
 		String name = scanner.nextLine();
 		System.out.println("Add group");
 		int group = Integer.parseInt(scanner.nextLine());
+		
 		student = new Student(name, group);
 		listStudents.add(student);
 	}
 	
 	public void muster() {
-		System.out.println("Muster...");
 		try {
 			for (Student student : listStudents) {
 				student.muster();
@@ -36,7 +36,7 @@ public class Exercise2 {
 					student.study();
 				}
 			}
-		} catch (NullPointerException e) {
+		} catch (Exception e) {
 			System.out.println("list student null...");
 		}
 	}

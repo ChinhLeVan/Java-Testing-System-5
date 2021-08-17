@@ -8,6 +8,7 @@ public class Candidates {
 	public enum Priority{
 		ONE, TWO, THREE
 	}
+	
 	public String getCandidateNumber() {
 		return candidateNumber;
 	}

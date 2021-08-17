@@ -4,6 +4,8 @@ import java.util.Scanner;
 import Exercise1.Candidates.Priority;
 
 public class Admissions implements IAdmissions{
+	
+	
 	private Scanner scanner = new Scanner(System.in);
 	ArrayList<Candidates> listCandidates = new ArrayList<>();
 	@Override
@@ -53,7 +55,7 @@ public class Admissions implements IAdmissions{
 			break;
 		}
 		default:
-			System.out.println("Chon sai level....");
+			System.out.println("Chon sai Khoi....");
 			break;
 		}
 	}
