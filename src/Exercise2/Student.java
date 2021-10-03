@@ -17,7 +17,7 @@ public class Student implements IStudent {
 	}
 
 	@Override
-	public void muster() {
+	public void rollUp() {
 		System.out.println(this.name +" điểm danh");	
 	}
 

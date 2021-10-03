@@ -7,7 +7,7 @@ public class Question1 {
 	public static void main(String[] args) {
 		Exercise2 question1 = new Exercise2();
 		while(true) {
-		System.out.println("Moi ban chon chuc nang... \n"+"1: Create Student... \n"+"2: Muster... \n"
+		System.out.println("Moi ban chon chuc nang... \n"+"1: Create Student... \n"+"2: RollUp... \n"
 							+"3: call group 1 to learning... \n"+"4: call group 2 to clearning... \n"+"5: Exit()");
 		int choise = Integer.parseInt(scanner.nextLine());
 		switch (choise) {
@@ -26,7 +26,7 @@ public class Question1 {
 				break;
 		}
 		case 2: {
-			question1.muster();
+			question1.rollUp();
 			break;
 		}
 		case 3: {

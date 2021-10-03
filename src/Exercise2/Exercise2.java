@@ -18,10 +18,10 @@ public class Exercise2 {
 		listStudents.add(student);
 	}
 	
-	public void muster() {
+	public void rollUp() {
 		try {
 			for (Student student : listStudents) {
-				student.muster();
+				student.rollUp();
 			}
 		} catch (NullPointerException e) {
 			System.out.println("list student null...");
